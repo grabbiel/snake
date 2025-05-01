@@ -1,0 +1,77 @@
+# Build directories
+/build/
+/bin/
+/lib/
+/out/
+/Release/
+/Debug/
+/x64/
+/x86/
+/emscripten_build/
+/html_build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.wasm
+*.js.mem
+*.bc
+*.data
+
+# Emscripten output
+*.js
+*.html
+*.html.mem
+*.wasm.map
+*.js.map
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.xcodeproj/
+*.xcworkspace/
+.DS_Store
+
+# Dependency directories (often managed separately)
+/external/
+/vendor/
+/deps/
+
+# Common temp/backup files
+*~
+*.bak
+*.tmp
+.*.swp
+.DS_Store
+Thumbs.db
+
+# Project-specific binary assets (uncomment if needed)
+# /assets/models/*
+# !/assets/models/*.obj
+# !/assets/models/*.gltf
+
+# Logs
+*.log
+log/
+logs/
