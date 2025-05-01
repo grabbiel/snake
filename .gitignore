@@ -1,5 +1,6 @@
 # Build directories
 /build/
+/build-native/
 /bin/
 /lib/
 /out/
@@ -75,3 +76,6 @@ Thumbs.db
 *.log
 log/
 logs/
+
+.clangd
+.sh
