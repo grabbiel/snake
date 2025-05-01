@@ -1,0 +1,166 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_specular",
+        "KHR_materials_volume",
+        "KHR_materials_ior",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110160,
+            "type": "VEC3",
+            "max": [
+                6.813912868499756,
+                0.7486230134963989,
+                0.48827099800109863
+            ],
+            "min": [
+                -11.184048652648926,
+                -0.056255001574754715,
+                -0.48827001452445984
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110160,
+            "type": "VEC3",
+            "max": [
+                0.9999268054962158,
+                1.0,
+                0.9998732805252075
+            ],
+            "min": [
+                -0.9984377026557922,
+                -1.0,
+                -0.9998732805252075
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 110160,
+            "type": "VEC2",
+            "max": [
+                0.998399019241333,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.004446983337402344
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 110160,
+            "type": "SCALAR",
+            "max": [
+                110159
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3965760,
+            "uri": "snakeH.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1321920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1321920,
+            "byteLength": 1321920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2643840,
+            "byteLength": 881280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3525120,
+            "byteLength": 440640,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularFactor": 1.0,
+                    "specularColorFactor": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "RATTLER",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "snakeH.obj",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
